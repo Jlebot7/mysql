@@ -1,14 +1,8 @@
--- ==========================================================
--- RETO: Creación de la tabla 'empleados' para ElectroHogar
--- ==========================================================
-
--- 1. Tabla referencial 'departamentos' (requerida para la llave foránea)
 CREATE TABLE IF NOT EXISTS departamentos (
     id_departamento INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL
 );
 
--- 2. Tabla 'empleados' con todas las restricciones solicitadas
 CREATE TABLE empleados (
     id_empleado INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,

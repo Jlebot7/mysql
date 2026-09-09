@@ -6,7 +6,6 @@ services:
     container_name: mysql-container
     environment:
       MYSQL_ROOT_PASSWORD: my-secret-pw
-      # Optional: Automatically create a database and user on startup
       MYSQL_DATABASE: my_database
       MYSQL_USER: my_user
       MYSQL_PASSWORD: my_user_pw
